@@ -36,7 +36,6 @@ export const useRooms = (orderByUpdatedAt?: boolean) => {
           .where('userIds', 'array-contains', firebaseUser.uid)
 
     return collection.onSnapshot(async (query) => {
-      console.log("thanh123123",query)
       const newRooms = await processRoomsQuery({ firebaseUser, query })
 
       setRooms(newRooms)

@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCTBridgeDelegate {
     FirebaseApp.configure()
 
     let bridge = RCTBridge(delegate: self, launchOptions: launchOptions)
-    let rootView = RCTRootView(bridge: bridge!, moduleName: "example", initialProperties: nil)
+    let rootView = RCTRootView(bridge: bridge!, moduleName: "ChatApp", initialProperties: nil)
 
     if #available(iOS 13.0, *) {
       rootView.backgroundColor = UIColor.systemBackground

@@ -1,20 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>PreferenceSpecifiers</key>
-	<array>
-		<dict>
-			<key>FooterText</key>
-			<string>This application makes use of the following third party libraries:</string>
-			<key>Title</key>
-			<string>Acknowledgements</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>BoringSSL is a fork of OpenSSL. As such, large parts of it fall under OpenSSL
+# Acknowledgements
+This application makes use of the following third party libraries:
+
+## BoringSSL-GRPC
+
+BoringSSL is a fork of OpenSSL. As such, large parts of it fall under OpenSSL
 licensing. Files that are completely new have a Google copyright and an ISC
 license. This license is reproduced at the bottom of this file.
 
@@ -265,33 +254,21 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>Mixed</string>
-			<key>Title</key>
-			<string>BoringSSL-GRPC</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Public Domain License
+
+
+## CocoaAsyncSocket
+
+Public Domain License
 
 The CocoaAsyncSocket project is in the public domain.
 
 The original TCP version (AsyncSocket) was created by Dustin Voss in January 2003.
 Updated and maintained by Deusty LLC and the Apple development community.
-</string>
-			<key>License</key>
-			<string>public domain</string>
-			<key>Title</key>
-			<string>CocoaAsyncSocket</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright 2006-2011, the V8 project authors. All rights reserved.
+
+
+## DoubleConversion
+
+Copyright 2006-2011, the V8 project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -317,17 +294,11 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>DoubleConversion</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## Firebase
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -529,17 +500,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>Firebase</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## FirebaseAuth
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -741,17 +706,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>FirebaseAuth</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## FirebaseCore
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -953,17 +912,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>FirebaseCore</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## FirebaseCoreDiagnostics
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -1165,17 +1118,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>FirebaseCoreDiagnostics</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## FirebaseFirestore
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -1377,17 +1324,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>FirebaseFirestore</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## FirebaseStorage
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -1589,17 +1530,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>FirebaseStorage</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## Flipper
+
+MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -1620,17 +1555,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>Flipper</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Boost Software License - Version 1.0 - August 17th, 2003
+
+
+## Flipper-Boost-iOSX
+
+Boost Software License - Version 1.0 - August 17th, 2003
 
 Permission is hereby granted, free of charge, to any person or organization
 obtaining a copy of the software and accompanying documentation covered by
@@ -1653,17 +1582,11 @@ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
 FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
-</string>
-			<key>License</key>
-			<string>Boost Software License</string>
-			<key>Title</key>
-			<string>Flipper-Boost-iOSX</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright 2006-2011, the V8 project authors. All rights reserved.
+
+
+## Flipper-DoubleConversion
+
+Copyright 2006-2011, the V8 project authors. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -1689,17 +1612,11 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>BSD</string>
-			<key>Title</key>
-			<string>Flipper-DoubleConversion</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2012 - present, Victor Zverovich
+
+
+## Flipper-Fmt
+
+Copyright (c) 2012 - present, Victor Zverovich
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -1726,17 +1643,11 @@ As an exception, if, as a result of your compiling your source code, portions
 of this Software are embedded into a machine-executable object form of such
 source code, you may redistribute such embedded portions in such object form
 without including the above copyright and permission notices.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>Flipper-Fmt</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## Flipper-Folly
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -1936,17 +1847,11 @@ Files in folly/external/farmhash licensed as follows
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-</string>
-			<key>License</key>
-			<string>Apache License, Version 2.0</string>
-			<key>Title</key>
-			<string>Flipper-Folly</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2008, Google Inc.
+
+
+## Flipper-Glog
+
+Copyright (c) 2008, Google Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -1978,11 +1883,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 A function gettimeofday in utilities.cc is based on
 
-http://www.google.com/codesearch/p?hl=en#dR3YEbitojA/COPYING&amp;q=GetSystemTimeAsFileTime%20license:bsd
+http://www.google.com/codesearch/p?hl=en#dR3YEbitojA/COPYING&q=GetSystemTimeAsFileTime%20license:bsd
 
 The license of this code is:
 
-Copyright (c) 2003-2008, Jouni Malinen &lt;j@w1.fi&gt; and contributors
+Copyright (c) 2003-2008, Jouni Malinen <j@w1.fi> and contributors
 All Rights Reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -2011,17 +1916,11 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>Google</string>
-			<key>Title</key>
-			<string>Flipper-Glog</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2012 Rasmus Andersson &lt;http://rsms.me/&gt;
+
+
+## Flipper-PeerTalk
+
+Copyright (c) 2012 Rasmus Andersson <http://rsms.me/>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -2039,17 +1938,11 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>Flipper-PeerTalk</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Apache License
+THE SOFTWARE.
+
+## Flipper-RSocket
+
+Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -2249,17 +2142,11 @@ THE SOFTWARE.</string>
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>Flipper-RSocket</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+   limitations under the License.
+
+## FlipperKit
+
+MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -2280,17 +2167,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>FlipperKit</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## GTMSessionFetcher
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -2492,17 +2373,11 @@ SOFTWARE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>GTMSessionFetcher</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## GoogleDataTransport
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -2704,17 +2579,11 @@ SOFTWARE.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>GoogleDataTransport</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## GoogleUtilities
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -2922,7 +2791,7 @@ SOFTWARE.
 The following copyright from Landon J. Fuller applies to the isAppEncrypted
 function in Environment/third_party/GULAppEnvironmentUtil.m.
 
-Copyright (c) 2017 Landon J. Fuller &lt;landon@landonf.org&gt;
+Copyright (c) 2017 Landon J. Fuller <landon@landonf.org>
 All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -2943,8 +2812,8 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 Comment from
-&lt;a href="http://iphonedevwiki.net/index.php/Crack_prevention"&gt;iPhone Dev Wiki
-Crack Prevention&lt;/a&gt;: App Store binaries are signed by both their developer
+<a href="http://iphonedevwiki.net/index.php/Crack_prevention">iPhone Dev Wiki
+Crack Prevention</a>: App Store binaries are signed by both their developer
 and Apple. This encrypts the binary so that decryption keys are needed in order
 to make the binary readable. When iOS executes the binary, the decryption keys
 are used to decrypt the binary into a readable state where it is then loaded
@@ -2959,19 +2828,13 @@ Resigning takes place because while the codesignature doesn't have to be valid
 thanks to the jailbreak, it does have to be in place unless you have AppSync or
 similar to disable codesignature checks.
 
-More information at &lt;a href="http://landonf.org/2009/02/index.html"&gt;Landon
-Fuller's blog&lt;/a&gt;
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>GoogleUtilities</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+More information at <a href="http://landonf.org/2009/02/index.html">Landon
+Fuller's blog</a>
+
+
+## OpenSSL-Universal
+
+
   LICENSE ISSUES
   ==============
 
@@ -3098,17 +2961,11 @@ Fuller's blog&lt;/a&gt;
  * [including the GNU Public Licence.]
  */
 
-</string>
-			<key>License</key>
-			<string>OpenSSL (OpenSSL/SSLeay)</string>
-			<key>Title</key>
-			<string>OpenSSL-Universal</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## PromisesObjC
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -3310,17 +3167,11 @@ Fuller's blog&lt;/a&gt;
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache</string>
-			<key>Title</key>
-			<string>PromisesObjC</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## RCT-Folly
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -3520,20 +3371,14 @@ Files in folly/external/farmhash licensed as follows
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
     THE SOFTWARE.
-</string>
-			<key>License</key>
-			<string>Apache License, Version 2.0</string>
-			<key>Title</key>
-			<string>RCT-Folly</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Apache-2.0 License
+
+
+## RNFBApp
+
+Apache-2.0 License
 ------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt;
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this library except in compliance with the License.
@@ -3552,7 +3397,7 @@ limitations under the License.
 Creative Commons Attribution 3.0 License
 ----------------------------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt;
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io>
 
 Documentation and other instructional materials provided for this project
 (including on a separate documentation repository or it's documentation website) are
@@ -3562,20 +3407,14 @@ contained therein are licensed under the Apache License, Version 2.0 (the "Licen
 You may obtain a copy of the Creative Commons Attribution 3.0 License at
 
     https://creativecommons.org/licenses/by/3.0/
-</string>
-			<key>License</key>
-			<string>Apache-2.0</string>
-			<key>Title</key>
-			<string>RNFBApp</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Apache-2.0 License
+
+
+## RNFBAuth
+
+Apache-2.0 License
 ------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this library except in compliance with the License.
@@ -3594,7 +3433,7 @@ limitations under the License.
 Creative Commons Attribution 3.0 License
 ----------------------------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Documentation and other instructional materials provided for this project
 (including on a separate documentation repository or it's documentation website) are
@@ -3604,20 +3443,14 @@ contained therein are licensed under the Apache License, Version 2.0 (the "Licen
 You may obtain a copy of the Creative Commons Attribution 3.0 License at
 
     https://creativecommons.org/licenses/by/3.0/
-</string>
-			<key>License</key>
-			<string>Apache-2.0</string>
-			<key>Title</key>
-			<string>RNFBAuth</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Apache-2.0 License
+
+
+## RNFBFirestore
+
+Apache-2.0 License
 ------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this library except in compliance with the License.
@@ -3636,7 +3469,7 @@ limitations under the License.
 Creative Commons Attribution 3.0 License
 ----------------------------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Documentation and other instructional materials provided for this project
 (including on a separate documentation repository or it's documentation website) are
@@ -3646,20 +3479,14 @@ contained therein are licensed under the Apache License, Version 2.0 (the "Licen
 You may obtain a copy of the Creative Commons Attribution 3.0 License at
 
     https://creativecommons.org/licenses/by/3.0/
-</string>
-			<key>License</key>
-			<string>Apache-2.0</string>
-			<key>Title</key>
-			<string>RNFBFirestore</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Apache-2.0 License
+
+
+## RNFBStorage
+
+Apache-2.0 License
 ------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this library except in compliance with the License.
@@ -3678,7 +3505,7 @@ limitations under the License.
 Creative Commons Attribution 3.0 License
 ----------------------------------------
 
-Copyright (c) 2016-present Invertase Limited &lt;oss@invertase.io&gt; &amp; Contributors
+Copyright (c) 2016-present Invertase Limited <oss@invertase.io> & Contributors
 
 Documentation and other instructional materials provided for this project
 (including on a separate documentation repository or it's documentation website) are
@@ -3688,17 +3515,11 @@ contained therein are licensed under the Apache License, Version 2.0 (the "Licen
 You may obtain a copy of the Creative Commons Attribution 3.0 License at
 
     https://creativecommons.org/licenses/by/3.0/
-</string>
-			<key>License</key>
-			<string>Apache-2.0</string>
-			<key>Title</key>
-			<string>RNFBStorage</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## RNFileViewer
+
+MIT License
 
 Copyright (c) 2017 Vincenzo Scamporlino
 
@@ -3719,17 +3540,36 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>RNFileViewer</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>The MIT License (MIT)
+
+
+## RNGestureHandler
+
+The MIT License (MIT)
+
+Copyright (c) 2016 Software Mansion <swmansion.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+## RNScreens
+
+The MIT License (MIT)
 
 Copyright (c) 2018 Krzysztof Magiera
 
@@ -3750,17 +3590,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>RNScreens</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## React
+
+MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -3781,17 +3615,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>React</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## React-Core
+
+MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -3812,17 +3640,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>React-Core</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## YogaKit
+
+MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -3843,17 +3665,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>YogaKit</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## abseil
+
+
                                  Apache License
                            Version 2.0, January 2004
                         https://www.apache.org/licenses/
@@ -4056,17 +3872,11 @@ SOFTWARE.
    See the License for the specific language governing permissions and
    limitations under the License.
 
-</string>
-			<key>License</key>
-			<string>Apache License, Version 2.0</string>
-			<key>Title</key>
-			<string>abseil</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Boost Software License - Version 1.0 - August 17th, 2003
+
+
+## boost
+
+Boost Software License - Version 1.0 - August 17th, 2003
 
 Permission is hereby granted, free of charge, to any person or organization
 obtaining a copy of the software and accompanying documentation covered by
@@ -4089,17 +3899,11 @@ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
 FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
-</string>
-			<key>License</key>
-			<string>Boost Software License</string>
-			<key>Title</key>
-			<string>boost</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2012 - present, Victor Zverovich
+
+
+## fmt
+
+Copyright (c) 2012 - present, Victor Zverovich
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -4126,17 +3930,11 @@ As an exception, if, as a result of your compiling your source code, portions
 of this Software are embedded into a machine-executable object form of such
 source code, you may redistribute such embedded portions in such object form
 without including the above copyright and permission notices.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>fmt</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## gRPC-C++
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -4338,17 +4136,11 @@ without including the above copyright and permission notices.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache License, Version 2.0</string>
-			<key>Title</key>
-			<string>gRPC-C++</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>
+
+
+## gRPC-Core
+
+
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -4550,17 +4342,11 @@ without including the above copyright and permission notices.
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-</string>
-			<key>License</key>
-			<string>Apache License, Version 2.0</string>
-			<key>Title</key>
-			<string>gRPC-Core</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2008, Google Inc.
+
+
+## glog
+
+Copyright (c) 2008, Google Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4592,11 +4378,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 A function gettimeofday in utilities.cc is based on
 
-http://www.google.com/codesearch/p?hl=en#dR3YEbitojA/COPYING&amp;q=GetSystemTimeAsFileTime%20license:bsd
+http://www.google.com/codesearch/p?hl=en#dR3YEbitojA/COPYING&q=GetSystemTimeAsFileTime%20license:bsd
 
 The license of this code is:
 
-Copyright (c) 2003-2008, Jouni Malinen &lt;j@w1.fi&gt; and contributors
+Copyright (c) 2003-2008, Jouni Malinen <j@w1.fi> and contributors
 All Rights Reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -4625,17 +4411,11 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>Google</string>
-			<key>Title</key>
-			<string>glog</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2011 The LevelDB Authors. All rights reserved.
+
+
+## leveldb-library
+
+Copyright (c) 2011 The LevelDB Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -4662,21 +4442,15 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-</string>
-			<key>License</key>
-			<string>New BSD</string>
-			<key>Title</key>
-			<string>leveldb-library</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Libevent is available for use under the following license, commonly known
+
+
+## libevent
+
+Libevent is available for use under the following license, commonly known
 as the 3-clause (or "modified") BSD license:
 
 ==============================
-Copyright (c) 2000-2007 Niels Provos &lt;provos@citi.umich.edu&gt;
+Copyright (c) 2000-2007 Niels Provos <provos@citi.umich.edu>
 Copyright (c) 2007-2012 Niels Provos and Nick Mathewson
 
 Redistribution and use in source and binary forms, with or without
@@ -4708,14 +4482,14 @@ available in the corresponding source files; the license is as above.  Here's
 a list:
 
 log.c:
-   Copyright (c) 2000 Dug Song &lt;dugsong@monkey.org&gt;
+   Copyright (c) 2000 Dug Song <dugsong@monkey.org>
    Copyright (c) 1993 The Regents of the University of California.
 
 strlcpy.c:
-   Copyright (c) 1998 Todd C. Miller &lt;Todd.Miller@courtesan.com&gt;
+   Copyright (c) 1998 Todd C. Miller <Todd.Miller@courtesan.com>
 
 win32select.c:
-   Copyright (c) 2003 Michael A. Davis &lt;mike@datanerds.net&gt;
+   Copyright (c) 2003 Michael A. Davis <mike@datanerds.net>
 
 evport.c:
    Copyright (c) 2007 Sun Microsystems
@@ -4724,15 +4498,15 @@ ht-internal.h:
    Copyright (c) 2002 Christopher Clark
 
 minheap-internal.h:
-   Copyright (c) 2006 Maxim Yegorushkin &lt;maxim.yegorushkin@gmail.com&gt;
+   Copyright (c) 2006 Maxim Yegorushkin <maxim.yegorushkin@gmail.com>
 
 ==============================
 
 The arc4module is available under the following, sometimes called the
 "OpenBSD" license:
 
-   Copyright (c) 1996, David Mazieres &lt;dm@uun.org&gt;
-   Copyright (c) 2008, Damien Miller &lt;djm@openbsd.org&gt;
+   Copyright (c) 1996, David Mazieres <dm@uun.org>
+   Copyright (c) 2008, Damien Miller <djm@openbsd.org>
 
    Permission to use, copy, modify, and distribute this software for any
    purpose with or without fee is hereby granted, provided that the above
@@ -4771,17 +4545,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-</string>
-			<key>License</key>
-			<string>BSD 3-Clause</string>
-			<key>Title</key>
-			<string>libevent</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Copyright (c) 2011 Petteri Aimonen &lt;jpa at nanopb.mail.kapsi.fi&gt;
+
+
+## nanopb
+
+Copyright (c) 2011 Petteri Aimonen <jpa at nanopb.mail.kapsi.fi>
 
 This software is provided 'as-is', without any express or 
 implied warranty. In no event will the authors be held liable 
@@ -4801,17 +4569,11 @@ redistribute it freely, subject to the following restrictions:
 
 3. This notice may not be removed or altered from any source 
    distribution.
-</string>
-			<key>License</key>
-			<string>zlib</string>
-			<key>Title</key>
-			<string>nanopb</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## react-native-document-picker
+
+MIT License
 
 Copyright (c) 2016 Elyx0
 
@@ -4832,17 +4594,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>react-native-document-picker</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+
+
+## react-native-image-picker
+
+MIT License
 
 Copyright (c) 2015-present, Facebook, Inc.
 
@@ -4862,17 +4618,11 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>react-native-image-picker</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>MIT License
+SOFTWARE.
+
+## react-native-safe-area-context
+
+MIT License
 
 Copyright (c) 2019 Th3rd Wave
 
@@ -4893,26 +4643,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-</string>
-			<key>License</key>
-			<string>MIT</string>
-			<key>Title</key>
-			<string>react-native-safe-area-context</string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-		<dict>
-			<key>FooterText</key>
-			<string>Generated by CocoaPods - https://cocoapods.org</string>
-			<key>Title</key>
-			<string></string>
-			<key>Type</key>
-			<string>PSGroupSpecifier</string>
-		</dict>
-	</array>
-	<key>StringsTable</key>
-	<string>Acknowledgements</string>
-	<key>Title</key>
-	<string>Acknowledgements</string>
-</dict>
-</plist>
+
+Generated by CocoaPods - https://cocoapods.org

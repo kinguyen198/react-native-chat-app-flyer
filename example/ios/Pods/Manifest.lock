@@ -797,6 +797,8 @@ PODS:
     - RNFBApp
   - RNFileViewer (2.1.4):
     - React-Core
+  - RNGestureHandler (2.5.0):
+    - React-Core
   - RNScreens (3.8.0):
     - React-Core
     - React-RCTImage
@@ -865,6 +867,7 @@ DEPENDENCIES:
   - "RNFBFirestore (from `../node_modules/@react-native-firebase/firestore`)"
   - "RNFBStorage (from `../node_modules/@react-native-firebase/storage`)"
   - RNFileViewer (from `../node_modules/react-native-file-viewer`)
+  - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -976,6 +979,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/storage"
   RNFileViewer:
     :path: "../node_modules/react-native-file-viewer"
+  RNGestureHandler:
+    :path: "../node_modules/react-native-gesture-handler"
   RNScreens:
     :path: "../node_modules/react-native-screens"
   Yoga:
@@ -1048,10 +1053,11 @@ SPEC CHECKSUMS:
   RNFBFirestore: eef5fd4cfbe35316af559631db06a34b8391628a
   RNFBStorage: 0c7bbab8436996aed5a7a9d7470a7df067a66419
   RNFileViewer: 83cc066ad795b1f986791d03b56fe0ee14b6a69f
+  RNGestureHandler: bad495418bcbd3ab47017a38d93d290ebd406f50
   RNScreens: 6e1ea5787989f92b0671049b808aef64fa1ef98c
   Yoga: 2b4a01651f42a32f82e6cef3830a3ba48088237f
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 9d2dead264e8a42ac453e46434ac53d9891db9dd
+PODFILE CHECKSUM: 958af1c4099da7feade7494925e0ecf5ed90f6bb
 
 COCOAPODS: 1.11.3

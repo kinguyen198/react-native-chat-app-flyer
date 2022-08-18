@@ -1,2 +1,2 @@
-${PODS_ROOT}/Target Support Files/Pods-example/Pods-example-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-ChatApp/Pods-ChatApp-frameworks.sh
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework/OpenSSL
