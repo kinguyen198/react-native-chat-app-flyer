@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "828996675392",
+    "firebase_url": "https://ahlustore-video-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ahlustore-video",
+    "storage_bucket": "ahlustore-video.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828996675392:android:a37cdb779ffb850267fca5",
+        "android_client_info": {
+          "package_name": "com.ahlustore.video"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828996675392-m6nebqjrj60i6fm7nmq7i21qph2vhnfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB78SReCSExhta3q4OqKvx1rke2DeeY7t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828996675392-m6nebqjrj60i6fm7nmq7i21qph2vhnfs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828996675392-3ij6lqvb8pg2oqiv0osv7anafgdcseqi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ahlustore.video"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
